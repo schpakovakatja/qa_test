@@ -1,13 +1,16 @@
 {
   "name": "qa_test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Тестовое задание QA Automation: Playwright тесты и документация",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx playwright test",
+    "test:report": "npx playwright show-report"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["playwright", "qa", "automation"],
+  "author": "Ekaterina",
   "license": "ISC",
-  "type": "commonjs"
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
 }
